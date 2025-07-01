@@ -1,0 +1,14 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog
+        id="popNewWorkstationDialog"
+        title="Información de Workstation"
+        showHeader="true"
+        showCloseButton="true">
+        <VBox>
+            <Text text="{info>/WorkstationId}"/>
+            <Text text="{info>/DepositoId}"/>
+            <Text text="{info>/Fecha}"/>
+            <Text text="{info>/Hora}"/>
+        </VBox>
+    </Dialog>
+</core:FragmentDefinition>
