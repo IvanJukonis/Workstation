@@ -1,1 +1,17 @@
-/* Enter your custom styles here */
+/* WORKSTATIONCREATE */
+.wsCreate .sapMDialogScrollCont {
+  border: 2px solid var(--sapAccentColor4);
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.centerDeposito {
+  display: flex;
+  align-items: center; /* Centrado vertical */
+}
+
+.wsRow {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+}

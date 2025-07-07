@@ -2,10 +2,6 @@
     xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-        <Button id="btn" text="{i18n>buttonText}" press="onPress"/>
-        <Button id="btnOpenPopupWorkstation" text="Crear Workstation" press="onOpenPopupWorkstation"/>
-        <Text id="text" text="{i18n>initialText}"/>
-        <Button id="btnClearDB" text="Borrar Base Local" press="onClearDatabase"/>
-        <Button id="btnAddTwo" text="Agregar registros" press="onAddTwoRecords"/>
+        <Button id="btnClearDB" text="Borrar almacenamiento local" press="onBorrarLocalStorage"/>
     </Page>
 </mvc:View>
